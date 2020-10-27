@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{E9CBCE0B-3005-48BD-A3D6-33C5FCB0694F}|Proactive-Bot">
+  <MonoDevelop.Ide.ItemProperties.ProactiveBot PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bots/ProactiveBot.cs">
+    <Files>
+      <File FileName="Bots/ProactiveBot.cs" Line="132" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProactiveBot" expanded="True">
+            <Node name="ProactiveBot" expanded="True">
+              <Node name="Bots" expanded="True">
+                <Node name="ProactiveBot.cs" selected="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="TeamsAppManifest" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.7",
+  "version": "1.0.0",
+  "id": "977ff8e3-2a8c-4cbd-a1eb-a45c48c57ac9",
+  "packageName": "alletah",
+  "developer": {
+    "name": "Wintechnologies",
+    "websiteUrl": "https://www.betway.co.za",
+    "privacyUrl": "https://www.betway.co.za/privacy",
+    "termsOfUseUrl": "https://www.betway.co.za/termsofuse"
+  },
+  "icons": {
+    "color": "icon-color.png",
+    "outline": "icon-outline.png"
+  },
+  "name": {
+    "short": "alletah",
+    "full": "teams-notifier-for-incoming-system-alerts"
+  },
+  "description": {
+    "short": "Sends alerts to Teams ",
+    "full": "This bot will send out a message to the teams channels in which it is installed to alert on external notification and sends alerts to Teams channels and follows up with updates in threaded conversations"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "977ff8e3-2a8c-4cbd-a1eb-a45c48c57ac9",
+      "scopes": [
+        "personal",
+        "team",
+        "groupchat"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "personal"
+          ],
+          "commands": [
+            {
+              "title": "MentionMe",
+              "description": "Sends message with @mention of the sender"
+            }
+          ]
+        }
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": []
+}
